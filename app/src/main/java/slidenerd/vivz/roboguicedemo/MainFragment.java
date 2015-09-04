@@ -5,14 +5,24 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
+
+import roboguice.fragment.RoboFragment;
+import roboguice.inject.InjectResource;
+import roboguice.inject.InjectView;
 
 /**
  * A placeholder fragment containing a simple view.
  */
-public class MainActivityFragment extends Fragment {
+public class MainFragment extends RoboFragment {
 
 
-    public MainActivityFragment() {
+    @InjectResource(R.string.text_story)
+    private String story;
+    @InjectView(R.id.text_story)
+    private TextView textStory;
+
+    public MainFragment() {
     }
 
     @Override
@@ -24,6 +34,6 @@ public class MainActivityFragment extends Fragment {
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
+        textStory.setText(story);
     }
 }

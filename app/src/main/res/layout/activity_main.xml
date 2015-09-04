@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/fragment"
-        android:name="slidenerd.vivz.roboguicedemo.MainActivityFragment"
+        android:name="slidenerd.vivz.roboguicedemo.MainFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:layout="@layout/fragment_main" />

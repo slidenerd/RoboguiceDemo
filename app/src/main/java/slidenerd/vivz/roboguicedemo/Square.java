@@ -1,8 +1,11 @@
 package slidenerd.vivz.roboguicedemo;
 
+import com.google.inject.Singleton;
+
 /**
  * Created by vivz on 03/09/15.
  */
+@Singleton
 public class Square implements Shape {
     float size;
 
