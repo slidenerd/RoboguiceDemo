@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RoboguiceDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_title">A story of 4 people</string>
+    <string name="text_story">This is a story of 4 people named everybody, somebody, anybody and nobody. Everybody is trying to find a story in this post, somebody knows this post has no story, anybody can suggest a bullshit story for this post but nobody wants to read shit from anybody</string>
+</resources>
